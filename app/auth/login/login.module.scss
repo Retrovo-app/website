@@ -1,57 +1,23 @@
-.logo {
-  margin-bottom: 20px;
+.grid {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 100vh;
 }
 
-.title {
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-size: 32px;
-  color: var(--text);
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.motivation {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: var(--text-light);
-}
-
-.header {
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  justify-content: center;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  justify-content: center;
+  width: 50%;
 }
 
-.flexSocial {
-  display: flex;
-  gap: 15px;
-  width: 100%;
-}
-
-.hr {
-  height: 1px;
-  width: 100%;
-  border-top: var(--border);
-}
-
-.or_flex {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-.or_text {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  color: var(--text-light);
+.poster {
+  background: var(--primary);
 }
