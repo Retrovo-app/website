@@ -1,0 +1,22 @@
+@use "@/styles/mixins" as *;
+
+.container {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 48px;
+  padding-bottom: 48px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
+  @include respond(tablet) {
+    width: 80%;
+  }
+  @include respond(mobile) {
+    width: 90%;
+  }
+}

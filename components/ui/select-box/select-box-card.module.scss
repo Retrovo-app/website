@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px;
+
+  border: solid 1px var(--border);
+  border-radius: 13px;
+
+  cursor: pointer;
+
+  position: relative;
+}
+
+.card_active {
+  outline: solid 2px var(--primary);
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--neutral-600);
+}
+.desc {
+  font-family: "Inter", sans-serif;
+  font-weight: "Regular";
+  font-size: 16px;
+  color: var(--neutral-400);
+}
+
+.check {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

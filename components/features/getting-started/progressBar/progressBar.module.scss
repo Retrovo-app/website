@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.progress {
+  height: 6px;
+  width: 100%;
+  border-radius: 30px;
+  background: var(--neutral-100);
+}
+
+.fill {
+  background: var(--primary);
+}

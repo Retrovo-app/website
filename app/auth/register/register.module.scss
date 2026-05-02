@@ -1,7 +1,16 @@
+@use "@/styles/mixins" as *;
+
 .grid {
   display: grid;
   grid-template-columns: 40% 60%;
   height: 100vh;
+
+  @include respond(tablet) {
+    grid-template-columns: 100%;
+  }
+  @include respond(mobile) {
+    grid-template-columns: 100%;
+  }
 }
 
 .content {
@@ -20,4 +29,11 @@
 
 .poster {
   background: var(--primary);
+
+  @include respond(tablet) {
+    display: none;
+  }
+  @include respond(mobile) {
+    display: none;
+  }
 }
